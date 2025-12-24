@@ -5,42 +5,47 @@ Create this one page html css and bootstrp 100% same , where are the imges use i
 
 
 
-i created this desigine what should i write in this part (left is for text one heading and some text and one learn more button )
+ create this desigine and write what should i write in this part (left is for text one heading and some text and one learn more button )
 Create this one page html css and bootstrp
 in css dont use dirrict tag and body html use class 
-create a section name product (this will be on the center and leave 6% from both left and right )
-in this section create 2 div name loq and tuf (h is 90vh) (verticaly) loq on top and tuf bellow the loq
-and both loq and tuf div will devide in 2 part , one left is for text one heading and some text and one learn more button and right is for product img 
+create a section name laptop-compare (this will be on the center and leave 6% from both left and right )
+in this section create 2 div name loq and tuf (h is auto vh) (horizontaly) loq on left and tuf on right
+and both loq and tuf div will devide in 2 part , one bottom is for text one heading and some text and one learn more button and top  is for product img 
 the product loq is http://127.0.0.1:5500/assets/images/product/a (1).jpg
 
  and tuf is  http://127.0.0.1:5500/assets/images/product/a (2).jpg
 
+ and add a div size of 350*350px and set at between the 2 product imge using position property (i will add a ime of VS (verces))
 
 
 
 
-
+write compare data 
+for extra date visit [
+    https://www.startech.com.bd/lenovo-loq-15ahp9-ryzen-7-8845hs-fhd-gaming-laptop?srsltid=AfmBOoomUHXAKPZAah3vWvVC1bOETfGrif1Oz6GiNsH7XuSt3AdMXi7z
+    https://www.startech.com.bd/asus-tuf-a15-ryzen-5-4600h-gaming-laptop?srsltid=AfmBOooR1bB-DRe1aS-_KSy0sH5faei4g-3jrKNl0C0qENKRDmNX4K5u
+]
+and make it responsive
 
 loq detais-{
-    Description
-Lenovo LOQ 15AHP9 Ryzen 7 8845HS RTX 4050 6GB Graphics 15.6" FHD 144Hz Gaming Laptop
-The Lenovo LOQ 15AHP9 is a robust gaming laptop designed to deliver top-notch performance and versatility for both gaming enthusiasts and professionals. At its core, it features the powerful AMD Ryzen 7 8845HS processor, which boasts 8 cores and 16 threads, offering a base clock speed of 3.8 GHz and the ability to turbo boost up to 5.1 GHz. This makes it highly capable of handling intensive tasks and multitasking with ease. The laptop is equipped with 16GB of high-speed DDR5 RAM, clocked at 5600MHz, which ensures that multiple applications can run smoothly without any lag. Storage is handled by a 512GB SSD, providing quick boot times and fast access to data, which enhances the overall system responsiveness and performance. The NVIDIA GeForce RTX 4050, which has a boost frequency of 2370MHz and 6GB of GDDR6 VRAM, powers the Lenovo LOQ 15AHP9. This GPU is perfect for both gaming and content production since it performs exceptionally well in both intensive rendering chores and contemporary games. Sharper pictures and less motion blur are provided by the laptop's 15.6-inch Full HD display with a refresh rate of 144Hz, which is essential for fast-paced gaming and high-definition movie viewing. When using the display in conjunction with the strong graphics card, you can be sure that your gaming or graphic-intensive application experience will be fluid and rich in visuals. With a 4-zone RGB backlit keyboard that improves both its visual appeal and usefulness in low light, the Lenovo LOQ 15AHP9 offers a personalized and colorful user experience. The laptop is a solid option for consumers who want a robust and trustworthy device because it also satisfies the Mil-Std-810h military standard for durability, meaning it can tolerate high temperatures, vibrations, and shocks. The Lenovo LOQ 15AHP9 is a versatile and powerful laptop that excels in both gaming and professional environments. Its combination of a high-performance processor, fast memory, advanced graphics, and durable build makes it a compelling choice for users seeking a reliable and high-performing laptop for various demanding tasks.
-
-Buy Lenovo LOQ 15AHP9 Ryzen 7 8845HS RTX 4050 6GB Graphics 15.6" FHD 144Hz Gaming Laptop from the best Laptop Shop in BD
-In Bangladesh, you can get original Lenovo LOQ 15AHP9 Ryzen 7 8845HS RTX 4050 6GB Graphics 15.6" FHD 144Hz Gaming Laptop From Star Tech. We have a large collection of the latest Lenovo laptops to purchase. Order Online Or Visit your Nearest Star Tech Shop to get yours at the lowest price. The Lenovo LOQ 15AHP9 Ryzen 7 8845HS 15.6" FHD Gaming Laptop comes with a 2-year Warranty ( Battery & Adapter 1 Year).
-
-What is the price of Lenovo LOQ 15AHP9 Ryzen 7 8845HS 15.6" FHD Gaming Laptop in Bangladesh?
-The latest price of Lenovo LOQ 15AHP9 Ryzen 7 8845HS 15.6" FHD Gaming Laptop in Bangladesh is 145,000৳. You can buy the Lenovo LOQ 15AHP9 Ryzen 7 8845HS 15.6" FHD Gaming Laptop at best price from our website or visit any of our showrooms.
+Processor: AMD Ryzen 7 8845HS (8C / 16T, 3.8 / 5.1GHz, 8MB L2 / 16MB L3) with NPU
+RAM: 16GB 5600MHz; Storage: 512GB SSD
+Graphics: NVIDIA GeForce RTX 4050 6GB
+Features: 4-Zone RGB Keyboard, 144Hz Display, Mil-Std-810h Military Grade
 }
 tuf details-{
-    Description
-ASUS TUF A15 FA506II Ryzen 5 4600H GTX 1650 Ti Graphics 144Hz 15.6" FHD Gaming Laptop with Windows 10
-Armed with the strength to tackle any situation, the TUF Gaming A15 delivers dependable performance for gaming, streaming, and everything in between. Up to a nimble 8-core AMD Ryzen 5 CPU can activate multiple threads to power through serious multitasking. Paired with up to a GeForce 1650 Ti discrete GPU, it can pump out reliably high frame rates in a wide range of popular games. Accelerate load times across a massive collection with an up to 512GB NVMe PCIe SSD. The A15 houses a bigger battery for longer life. Its power-efficient Ryzen processor and formidable 90Wh battery offer up to 12.3 hours of video playback. Two sleek looks give gamers greater freedom to show off their personal style. User can choose between a stealthy and sleek Fortress Gray chassis or an eye-catching Bonfire Black design accented with a crimson stripe. The subtle honeycomb patterning around the base adds grip and echoes hexagon reinforcements around the chassis, while hairline brushstrokes across the palm rest keep it sleek and clean. Presenting a speedy IPS-level panel, the TUF Gaming A15 is perfect for fast-paced gaming. Connect an external monitor for master-level multitasking via USB 3.2 Gen 2 Type-C with G-SYNC enabled DisplayPort 1.4, and play 4K Ultra HD movies, videos, and games on big-screen TVs with HDMI 2.0b. Besides, Military-grade durability makes every TUF gaming laptop a road warrior ready for all of life’s extremes. In order to earn the TUF Gaming name, these laptops must successfully survive a rigorous battery of MIL-STD-810H tests. Test devices are exposed to drops, vibration, humidity, and extreme temperatures to ensure reliability. Dependable even in the harshest conditions, the A15 is more than capable of withstanding the accidental bumps and knocks of everyday life. Drop tests ensure every TUF Gaming laptop can resist damage from unexpected falls, knocks, and bumps during shipment and daily use. Arms user with a desktop-style keyboard optimized for gaming. Uniform RGB backlighting lets user express own unique style, while highlighted WASD accents gives user a visual shortcut to key movement commands. Overstroke technology triggers higher in each keystroke for faster responsiveness and effortless control. In true TUF form, each key is durable enough to withstand over 20 million presses for superb long-term reliability and precision. Two upgraded speakers with four cut-outs pump out 1.8x more sound with 2.7x deeper bass than previous generations for a richer audio experience. DTS technology delivers high-fidelity 7.1-channel virtual surround sound for theater-quality audio with stereo headsets. User can get the drop on enemies with the enhanced spatial awareness that surround sound provides, or enjoy the nuances of layered musical performances. Up to 8 preset modes for music, movies, and gaming genres optimize user's experience further, while a built-in equalizer lets user fine-tune the settings at will. Its extensive customization options lets user personalize aesthetic effects, fine-tune game profiles, and adjust audio settings to fit user's preferences. With Scenario Profiles, user can define and custom preferences that automatically adjust performance and other settings when user launches your favorite apps and games.
-
-This multi function extreme durable device comes with 02 years International Limited Warranty (1 year for Battery and Adapter).
-
-What is the price of ASUS TUF A15 FA506II Ryzen 5 4600H GTX 1650 Ti Graphics 144Hz 15.6" FHD Gaming Laptop in Bangladesh?
-The latest price of ASUS TUF A15 FA506II Ryzen 5 4600H GTX 1650 Ti Graphics 144Hz 15.6" FHD Gaming Laptop in Bangladesh is 95,000৳. You can buy the ASUS TUF A15 FA506II Ryzen 5 4600H GTX 1650 Ti Graphics 144Hz 15.6" FHD Gaming Laptop at best price from our website or visit any of our showrooms.
+Processor
+Ryzen 5 4600H Processor (8M Cache, 3.0GHz up to 4.00GHz)
+Display
+15.6"FHD (1920x1080) Anti-Glare IPS-level Panel at 144Hz Display with 45% NTSC & sRGB 62.5%
+Brightness: 250
+Contrast: 1000:1
+Memory
+8GB 3200MHz SDRAM
+Storage
+512GB PCIe Gen3 SSD (HDD upgraded)
+Graphics
+Nvidia GeForce GTX 1650 Ti with 4GB GDDR6 Graphics
 }
 
 

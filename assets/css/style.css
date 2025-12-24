@@ -35,6 +35,7 @@ body {
     padding: 10px 0;
     position: fixed;
     background-color: #252627;
+    z-index: 9999;
 }
 
         .logo img {
@@ -262,3 +263,141 @@ body {
     object-fit: contain;
 }
 /* product image end */
+
+
+/* ==================== */
+/* laptop compare start */
+.laptop-compare {
+    padding: 80px 6%;
+}
+/* laptop compare end */
+
+
+/* compare wrapper start */
+.compare-wrapper {
+    position: relative;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+/* compare wrapper end */
+
+
+/* product box start */
+.product-box-new {
+    width: 48%;
+    /* background-color: #ffffff; */
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+ 
+}
+/* product box end */
+
+
+/* product image start */
+.product-ima {
+    padding: 40px;
+    /* background-color: #fafafa; */
+    text-align: center;
+    
+}
+
+.product-ima img {
+    width: 100%;
+    max-width: 420px;
+   
+}
+/* product image end */
+
+
+/* product content start */
+.product-content {
+    padding: 32px;
+}
+
+.product-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.product-desc {
+    font-size: 14px;
+    /* color: #555555; */
+    line-height: 1.6;
+    margin-bottom: 18px;
+}
+/* product content end */
+
+
+/* spec list start */
+.spec-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 22px;
+}
+
+.spec-list li {
+    font-size: 13px;
+    /* color: #333333; */
+    margin-bottom: 6px;
+}
+/* spec list end */
+
+
+/* button start */
+.learn-btn {
+    align-self: flex-start;
+    padding: 10px 22px;
+    font-size: 14px;
+    border-radius: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+}
+/* button end */
+
+
+/* vs box start */
+.vs-box {
+    position: absolute;
+    left: 50%;
+    top: 120px;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 120px;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 60px;
+    color: #ffffff;
+    z-index: 10;
+}
+/* vs box end */
+
+
+/* responsive start */
+@media (max-width: 992px) {
+    .compare-wrapper {
+        flex-direction: column;
+    }
+
+    .product-box-new {
+        width: 100%;
+    }
+
+    .vs-box {
+        position: relative;
+        margin: 30px auto;
+        top: 0;
+        transform: none;
+    }
+}
+/* responsive end */
