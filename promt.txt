@@ -1,1 +1,81 @@
 Create this one page html css and bootstrp 100% same , where are the imges use img i will replese this leter
+
+
+
+
+
+
+
+Create this one page html css and bootstrp
+in css dont use dirrict tag and body html use class 
+
+create a hero img part with 2 image 
+and each imge will stay for 3 sec and move to next one and it will be loop
+src http://127.0.0.1:5500/assets/images/hero/loq.png and http://127.0.0.1:5500/assets/images/hero/tuf.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hero Image Content – Lenovo LOQ Ryzen 7
+Primary Headline
+
+Lenovo LOQ with AMD Ryzen™ 7
+Power that plays hard.
+
+Subheadline
+
+High-performance gaming and multitasking, built for speed, cooling, and control.
+
+Key Highlights (Overlay Text or Icons)
+
+AMD Ryzen™ 7 Processor – Smooth gaming & fast productivity
+
+NVIDIA® GeForce RTX™ Graphics – Realistic visuals & high FPS
+
+Up to 144Hz Display – Ultra-smooth gameplay
+
+Advanced Cooling System – Stay cool under pressure
+
+Military-Grade Durability – Built to last
+
+
+===========
+Hero Image Content – ASUS TUF Ryzen™ 5
+Primary Headline
+
+ASUS TUF with AMD Ryzen™ 5
+Built to endure. Ready to perform.
+
+Subheadline
+
+Reliable gaming and multitasking performance, engineered for durability, cooling, and smooth play.
+
+Key Highlights (Overlay Text or Icons)
+
+AMD Ryzen™ 5 Processor – Strong performance for gaming & everyday productivity
+
+NVIDIA® GeForce RTX™ Graphics – Smooth visuals & immersive gameplay
+
+Up to 144Hz Display – Fluid motion for competitive gaming
+
+TUF Cooling Technology – Efficient airflow for sustained performance
+
+Military-Grade Toughness – Tested for durability and long-lasting use

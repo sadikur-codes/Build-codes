@@ -103,3 +103,104 @@ body {
                 display: none;
             }
         }
+
+/* hero style start */
+/* hero responsive start */
+.hero {
+    width: 100%;
+    height: clamp(60vh, 80vh, 90vh);
+    max-height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #000; /* prevents empty gaps */
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.hero img {
+    /* object-fit: cover; */
+    object-position: center;
+}
+
+/* hero responsive end */
+
+/* hero style end */
+        /* footer start */
+        .footer {
+            padding: 60px 0;
+            background-color: #ffffff;
+            border-top: 1px solid #e5e5e5;
+        }
+
+        .footer-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .footer-logo img {
+            width: 40px;
+            height: auto;
+        }
+
+        .footer-logo h4 {
+            margin: 0;
+            font-weight: 700;
+            color: #ff6a00;
+        }
+
+        .footer p {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .footer h6 {
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .footer ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer ul li {
+            margin-bottom: 8px;
+        }
+
+        .footer ul li a {
+            text-decoration: none;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .footer ul li a:hover {
+            color: #ff6a00;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .social-icons img {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+        }
+
+        .ssl-logo img {
+            width: 140px;
+            margin-top: 10px;
+        }
+        /* footer end */
