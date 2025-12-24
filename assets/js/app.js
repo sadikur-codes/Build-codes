@@ -2,8 +2,8 @@
 
 // image sources array
 const heroImages = [
-    "http://127.0.0.1:5500/assets/images/hero/loq.png",
-    "http://127.0.0.1:5500/assets/images/hero/tuf.png"
+    "assets/images/hero/loq.png",
+    "assets/images/hero/tuf.png"
 ];
 
 let currentIndex = 0;
