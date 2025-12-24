@@ -427,6 +427,7 @@ body {
             padding: 20px 24px;
             height: 100%;
             box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+            border: 2px solid #e5e5e5;
         }
         /* card end */
 
