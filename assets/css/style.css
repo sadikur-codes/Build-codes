@@ -19,18 +19,23 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
 :root {
-    --primary : #0771b9;
-    --secondary : #5bc5f3;
+    --primary : #2a2d33;
+    --secondary : #9d9b9d;
+
 }
 body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-        }
+    background-color: var(--primary) !important;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--secondary);
+}
 
-        .top-header {
-            border-bottom: 1px solid #e5e5e5;
-            padding: 10px 0;
-        }
+.top-header {
+    border-bottom: 1px solid #02fffa;
+    padding: 10px 0;
+    position: fixed;
+    background-color: #252627;
+}
 
         .logo img {
             height: 40px;
@@ -55,13 +60,13 @@ body {
             bottom: 3px;
             width: 45px;
             border-radius: 50%;
-            background: #ff6a00;
+            background: #0ae7f2;
             border: none;
             color: #fff;
         }
 
         .pc-builder-btn {
-            background: #ff6a00;
+            background: #0ae7f2;
             color: #fff;
             border-radius: 25px;
             padding: 10px 20px;
@@ -94,7 +99,7 @@ body {
         }
 
         .hotline span {
-            color: #ff6a00;
+            color: #0ae7f2;
             font-weight: 600;
         }
 
@@ -134,7 +139,7 @@ body {
         /* footer start */
         .footer {
             padding: 60px 0;
-            background-color: #ffffff;
+            /* background-color: #ffffff; */
             border-top: 1px solid #e5e5e5;
         }
 
@@ -189,14 +194,14 @@ body {
 
         .social-icons {
             display: flex;
-            gap: 10px;
-            margin-top: 10px;
+            gap: 0px;
+            margin-top: 30px;
         }
 
-        .social-icons img {
-            width: 32px;
-            height: 32px;
-            border-radius: 50%;
+        .social-icons i {
+            width: 50px;
+            height: 60px;
+            /* border-radius: 50%; */
         }
 
         .ssl-logo img {
@@ -204,3 +209,56 @@ body {
             margin-top: 10px;
         }
         /* footer end */
+/* page wrapper start */
+.page-wrapper {
+    width: 100%;
+}
+/* page wrapper end */
+
+
+/* product section start */
+.product {
+    margin-left: 6%;
+    margin-right: 6%;
+}
+/* product section end */
+
+
+/* product box start */
+.product-box {
+    height: 90vh;
+    display: flex;
+}
+/* product box end */
+
+
+/* product text start */
+.product-text {
+    padding: 40px;
+}
+
+.product-text h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.product-text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+/* product text end */
+
+
+/* product image start */
+.product-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-image img {
+    max-width: 100%;
+    max-height: 80vh;
+    object-fit: contain;
+}
+/* product image end */
